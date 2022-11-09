@@ -1,19 +1,16 @@
-.detail {
-  border: 1px red solid;
-}
 .item {
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
-  top: 0%;
-  left: 0%;
-  transform: translate(50%, 50%);
+  top: 0;
+  left: 0;
+  transform: translate(40%, 40%);
+  padding: 1rem;
+  border: gray 1px solid;
 }
 .item h4 {
   color: white;
 }
 .item img {
-  width: 200px;
-}
-.item button {
-  text-align: right;
+  width: 300px;
+  height: auto;
 }

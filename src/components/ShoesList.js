@@ -230,7 +230,6 @@ export default class ShoesList extends Component {
       cart: cloneCart,
     });
   };
-  //thêm dòng tổng tiền
   decreaseItem = (id) => {
     const cloneCart = [...this.state.cart];
     const foundItem = cloneCart.find((item) => id === item.product.id);
@@ -241,7 +240,8 @@ export default class ShoesList extends Component {
       cart: cloneCart,
     });
   };
-  //thêm nút thanh toán =>clear giỏ hàng
+
+  //thêm nút thanh toán, tổng tiền =>clear giỏ hàng
   checkout = () => {
     if (!window.confirm("Xác nhận thanh toán")) {
       return;
